@@ -1,0 +1,5 @@
+
+%if "%build_flavor" == "mOS"
+ln -fs libmos.so.1 %{buildroot}/usr/lib/libmos.so
+ln -fs libxpmem.so.0 %{buildroot}/usr/lib/libxpmem.so
+%endif
